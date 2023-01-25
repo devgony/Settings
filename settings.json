@@ -1,6 +1,157 @@
 {
-  "workbench.colorTheme": "One Dark Pro",
+  // "python.logging.level": "debug",
+  // "python.experiments.optInto": ["CustomEditorSupport - experiment"],
+  "workbench.colorTheme": "Material Theme",
+  "terminal.integrated.fontFamily": "\"MesloLGS NF\"",
+  "launch": {},
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "jupyter.alwaysTrustNotebooks": true,
+  "editor.copyWithSyntaxHighlighting": false,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "material-icon-theme.files.associations": {
+    "*.module.ts": "nest-module",
+    "*.service.ts": "nest-service",
+    "*.controller.ts": "nest-controller",
+    "*.gateway.ts": "nest-gateway",
+    "*.decorator.ts": "nest-decorator",
+    "*.filter.ts": "nest-filter",
+    "*.guard.ts": "nest-guard",
+    "*.middleware.ts": "nest-middleware",
+    "*.pipe.ts": "nest-pipe",
+    "*.resolver.ts": "nest-resolver"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "files.autoSave": "off",
+  "editor.renderWhitespace": "none",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "code-runner.defaultLanguage": "javascript",
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.customCommand": "",
+  "code-runner.showRunCommandInEditorContextMenu": false,
+  "code-runner.showExecutionMessage": false,
+  "code-runner.showRunCommandInExplorerContextMenu": false,
+  "code-runner.showRunIconInEditorTitleMenu": false,
+  "code-runner.executorMap": {
+    "javascript": "node",
+    "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+    "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "php": "php",
+    "python": "python -u",
+    "perl": "perl",
+    "perl6": "perl6",
+    "ruby": "ruby",
+    "go": "go run",
+    "lua": "lua",
+    "groovy": "groovy",
+    "powershell": "powershell -ExecutionPolicy ByPass -File",
+    "bat": "cmd /c",
+    "shellscript": "bash",
+    "fsharp": "fsi",
+    "csharp": "scriptcs",
+    "vbscript": "cscript //Nologo",
+    "typescript": "ts-node",
+    "coffeescript": "coffee",
+    "scala": "scala",
+    "swift": "swift",
+    "julia": "julia",
+    "crystal": "crystal",
+    "ocaml": "ocaml",
+    "r": "Rscript",
+    "applescript": "osascript",
+    "clojure": "lein exec",
+    "haxe": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
+    "rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
+    "racket": "racket",
+    "scheme": "csi -script",
+    "ahk": "autohotkey",
+    "autoit": "autoit3",
+    "dart": "dart",
+    "pascal": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
+    "d": "cd $dir && dmd $fileName && $dir$fileNameWithoutExt",
+    "haskell": "runhaskell",
+    "nim": "nim compile --verbosity:0 --hints:off --run",
+    "lisp": "sbcl --script",
+    "kit": "kitc --run",
+    "v": "v run",
+    "sass": "sass --style expanded",
+    "scss": "scss --style expanded",
+    "less": "cd $dir && lessc $fileName $fileNameWithoutExt.css",
+    "FortranFreeForm": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "fortran-modern": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "fortran_fixed-form": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
+  },
+  "prettier.arrowParens": "avoid",
+  "go.lintTool": "golint",
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
+  "python.pythonPath": "/usr/bin/python",
+  "python.formatting.provider": "black",
+  "python.defaultInterpreterPath": "/usr/bin/python",
+  "javascript.format.enable": false,
+  "rust.wait_to_build": 500,
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.codeLens.enabled": false,
+  "gitlens.hovers.currentLine.enabled": false,
+  "workbench.colorCustomizations": {
+    "editor.lineHighlightBackground": "#1073cf2d",
+    "editor.lineHighlightBorder": "#9fced11f"
+  },
+  "editor.wordWrap": "off",
+  "diffEditor.wordWrap": "off",
+  // "editor.inlayHints.enabled": true,
+  "blockman.n05CustomColorOfDepth0": "none",
+  "blockman.n07CustomColorOfDepth2": "none",
+  "blockman.n08CustomColorOfDepth3": "none",
+  "blockman.n06CustomColorOfDepth1": "none",
+  "blockman.n09CustomColorOfDepth4": "none",
+  "blockman.n10CustomColorOfDepth5": "none",
+  "blockman.n11CustomColorOfDepth6": "none",
+  "blockman.n12CustomColorOfDepth7": "none",
+  "blockman.n13CustomColorOfDepth8": "none",
+  "blockman.n14CustomColorOfDepth9": "none",
+  "blockman.n15CustomColorOfDepth10": "none",
+  "blockman.n17CustomColorOfFocusedBlock": "same",
+  "editor.guides.indentation": false,
+  "editor.guides.bracketPairs": false,
+  "editor.accessibilitySupport": "off",
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "go.lintFlags": [
+    "\t\"--exclude=\\\"\\bexported \\\\w+ (\\\\S*['.]*)([a-zA-Z'.*]*) should have comment or be unexported\\b\\\"\""
+  ],
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "rust-analyzer.inlayHints.enable": true,
+  "rust-analyzer.inlayHints.closureReturnTypeHints.enable": true,
   "window.zoomLevel": 2,
+  "editor.minimap.enabled": false,
+  "editor.inlayHints.enabled": "on",
+  "editor.formatOnSave": true,
   "[dart]": {
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
@@ -11,29 +162,22 @@
     "editor.tabCompletion": "onlySnippets",
     "editor.wordBasedSuggestions": false
   },
-  "editor.fontFamily": "JetBrainsMono Nerd Font, Menlo, Monaco, 'Courier New', monospace",
-  "editor.fontLigatures": true,
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
+  "dart.flutterRunAdditionalArgs": [
+    "--web-renderer",
+    "html",
+    "--web-hostname=0.0.0.0",
+    "--web-port=53000"
+    // // Dart Developer Service port (debugger)
+    // "--dds-port=53000",
+    // // Dart VM Service instance port (device)
+    // "--host-vmservice-port=53001"
+  ],
+  "dart.openDevTools": "flutter",
+  // "dart.devToolsPort": 59100
   "editor.codeActionsOnSave": {
     "source.fixAll": true
   },
   "dart.previewFlutterUiGuides": true,
-  "editor.formatOnSave": true,
-  "security.workspace.trust.untrustedFiles": "open",
-  "files.associations": {
-    "*.rs": "rust"
-  },
-  "tailwindCSS.includeLanguages": {
-    "rust": "html"
-  },
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "rust-analyzer.inlayHints.typeHints.enable": false,
-  "rust-analyzer.inlayHints.parameterHints.enable": false,
-  "rust-analyzer.inlayHints.chainingHints.enable": false,
   //// begin VIM
   "vim.leader": "space",
   "vim.hlsearch": true,

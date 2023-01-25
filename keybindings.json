@@ -1,6 +1,39 @@
 // Place your key bindings in this file to override the defaultsauto[]
 [
   {
+    "key": "ctrl+shift+u",
+    "command": "editor.action.transformToUppercase"
+  },
+  {
+    "key": "ctrl+shift+l",
+    "command": "editor.action.transformToLowercase"
+  },
+  {
+    "key": "alt+cmd+end",
+    "command": "workbench.action.terminal.focusNext"
+  },
+  {
+    "key": "alt+cmd+home",
+    "command": "workbench.action.terminal.focusPrevious"
+  },
+  {
+    "key": "alt+cmd+insert",
+    "command": "workbench.action.terminal.newInActiveWorkspace"
+  },
+  {
+    "key": "alt+cmd+delete",
+    "command": "workbench.action.terminal.kill"
+  },
+  {
+    "key": "ctrl+alt+cmd+[",
+    "command": "workbench.action.openPreviousRecentlyUsedEditorInGroup"
+  },
+  {
+    "key": "ctrl+alt+cmd+]",
+    "command": "workbench.action.openNextRecentlyUsedEditorInGroup"
+  },
+  ////
+  {
     "key": "cmd+1",
     "command": "-workbench.action.focusFirstEditorGroup"
   },
@@ -103,7 +136,7 @@
   {
     "key": "ctrl+9",
     "command": "-workbench.action.openEditorAtIndex9"
-  }, // File: keybindings.json
+  },
   {
     "key": "ctrl+j",
     "command": "selectNextSuggestion",
@@ -124,4 +157,5 @@
     "command": "workbench.action.quickOpenSelectPrevious",
     "when": "inQuickOpen"
   }
+  ////
 ]
